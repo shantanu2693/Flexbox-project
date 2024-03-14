@@ -136,4 +136,28 @@ body {
     text-align: center;
 }
 
+.quote {
+    background-color: #E5E7EB;
+    height: 350px;
+    text-align: left;
+}
+
+.quote > p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding-top: 60px;
+    padding-left: 480px;
+    padding-right: 400px;
+    margin-bottom: 30px;
+}
+
+.quote > h3 {
+    font-size: 18px;
+    color: #1F2937;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0.5px 0 #1F2937;
+    padding-left: 1150px;
+}
 
