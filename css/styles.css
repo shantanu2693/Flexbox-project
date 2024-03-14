@@ -213,3 +213,16 @@ body {
 .text > p {
     margin-top: 0;
 }
+
+.footer-class {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    width: 100vw;
+    height: 100px;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
