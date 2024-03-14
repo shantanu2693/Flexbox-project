@@ -139,26 +139,35 @@ body {
 .quote {
     background-color: #E5E7EB;
     height: 350px;
-    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
 }
 
-.quote > p {
+.content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.content-container > p {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
-    padding-top: 60px;
-    padding-left: 480px;
-    padding-right: 400px;
-    margin-bottom: 30px;
+    width: 800px;
 }
 
-.quote > h3 {
+.content-container > h3 {
     font-size: 18px;
     color: #1F2937;
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-shadow: 0.5px 0 #1F2937;
-    padding-left: 1150px;
+    align-self: flex-end;
+    margin-top: 0px;
 }
 
 .call-to-action {
