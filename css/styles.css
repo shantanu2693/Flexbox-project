@@ -17,6 +17,7 @@ body {
 .header {
     background-color: #1F2937;
     color: #F9FAF8;
+    width: 100vw;
 }
 
 .navbar {
